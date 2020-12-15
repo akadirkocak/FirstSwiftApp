@@ -13,6 +13,7 @@
 		3D11853D2581663600162249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D11853C2581663600162249 /* Preview Assets.xcassets */; };
 		3D1185482581663600162249 /* DunyaGezginiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1185472581663600162249 /* DunyaGezginiTests.swift */; };
 		3D1185532581663600162249 /* DunyaGezginiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1185522581663600162249 /* DunyaGezginiUITests.swift */; };
+		3DA2983A25864A2C002AC191 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2983925864A2B002AC191 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3D11854E2581663600162249 /* DunyaGezginiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunyaGezginiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1185522581663600162249 /* DunyaGezginiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunyaGezginiUITests.swift; sourceTree = "<group>"; };
 		3D1185542581663600162249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA2983925864A2B002AC191 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3D1185352581663400162249 /* DunyaGezginiApp.swift */,
 				3D1185372581663400162249 /* ContentView.swift */,
+				3DA2983925864A2B002AC191 /* MapView.swift */,
 				3D1185392581663600162249 /* Assets.xcassets */,
 				3D11853E2581663600162249 /* Info.plist */,
 				3D11853B2581663600162249 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				3D1185382581663400162249 /* ContentView.swift in Sources */,
 				3D1185362581663400162249 /* DunyaGezginiApp.swift in Sources */,
+				3DA2983A25864A2C002AC191 /* MapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
