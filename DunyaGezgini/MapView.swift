@@ -18,7 +18,7 @@ struct MapView: View {
             span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)
         )
     ]
-    
+    //Test
     @State var region: MKCoordinateRegion = regions[0]
     @State var selectedIndex = 0
   
