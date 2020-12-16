@@ -31,14 +31,14 @@ struct ContentView: View {
     }
     var body: some View {
         VStack{
-            TextField("value",text:$fahreneitValue)
+            TextField("CONVERSION_TEXT_FIELD_PLACEHOLDER ",text:$fahreneitValue)
                 .keyboardType(.decimalPad)
             .font(Font.system(size: 64)).multilineTextAlignment(.center)
-            Text("Fahrenheit")
-            Text("is actually").foregroundColor(.gray)
+            Text("CONVERSION_FAHRENHEIT")
+            Text("CONVERSION_IS_ACTUALLY").foregroundColor(.gray)
             Text(convertToCelcius()).font(Font.system(size: 64))
-            Text("degress Celcius")
-            Text("Abdulkadir Koçakk")
+            Text("CONVERSION_DEGREES_CELCIUS")
+            Text("Abdulkadir Koçak")
             Spacer()
         }.font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).foregroundColor(.orange)
     }

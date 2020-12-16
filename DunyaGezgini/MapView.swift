@@ -18,7 +18,7 @@ struct MapView: View {
             span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)
         )
     ]
-    //Example Demo 
+    //Example Demo
     @State var region: MKCoordinateRegion = regions[0]
     @State var selectedIndex = 0
   
@@ -29,8 +29,8 @@ struct MapView: View {
             .overlay(
                 VStack{
                     Picker("Picker", selection: $selectedIndex, content: {
-                        Text("Istanbul").tag(0)
-                        Text("London").tag(1)
+                        Text("MAP_CITY_ISTANBUL").tag(0)
+                        Text("MAP_CITY_LONDON").tag(1)
                     }).pickerStyle(SegmentedPickerStyle())
                     .padding()
                     .onChange(of: selectedIndex, perform: { value in
