@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isVisible = false
     
     @State var fahreneitValue: String=""
     let numberFormatter: NumberFormatter = {
@@ -41,6 +42,12 @@ struct ContentView: View {
             Text("Abdulkadir Koçak")
             Spacer()
         }.font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).foregroundColor(.orange)
+        .opacity(isVisible ? 1.0 : 0.0)
+        .offset(x:0, y: isVisible ? 0 : 20)
+        .animation(.easeIn(duration: 1.0))
+        .onAppear{
+            self.isVisible = true
+        }
     }
 }
 

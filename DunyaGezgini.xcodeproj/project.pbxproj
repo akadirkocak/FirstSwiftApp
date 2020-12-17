@@ -14,6 +14,7 @@
 		3D1185482581663600162249 /* DunyaGezginiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1185472581663600162249 /* DunyaGezginiTests.swift */; };
 		3D1185532581663600162249 /* DunyaGezginiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1185522581663600162249 /* DunyaGezginiUITests.swift */; };
 		3DA2983A25864A2C002AC191 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2983925864A2B002AC191 /* MapView.swift */; };
+		B61A6291258BA4CC00C91B08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B61A6293258BA4CC00C91B08 /* InfoPlist.strings */; };
 		B690858A258A509900B39A03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B690858C258A509900B39A03 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		3D1185522581663600162249 /* DunyaGezginiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunyaGezginiUITests.swift; sourceTree = "<group>"; };
 		3D1185542581663600162249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA2983925864A2B002AC191 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B61A6292258BA4CC00C91B08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B61A6297258BA4DD00C91B08 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B690858B258A509900B39A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B6908590258A641A00B39A03 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +109,7 @@
 				3DA2983925864A2B002AC191 /* MapView.swift */,
 				3D1185392581663600162249 /* Assets.xcassets */,
 				3D11853E2581663600162249 /* Info.plist */,
+				B61A6293258BA4CC00C91B08 /* InfoPlist.strings */,
 				3D11853B2581663600162249 /* Preview Content */,
 			);
 			path = DunyaGezgini;
@@ -242,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D11853D2581663600162249 /* Preview Assets.xcassets in Resources */,
+				B61A6291258BA4CC00C91B08 /* InfoPlist.strings in Resources */,
 				B690858A258A509900B39A03 /* Localizable.strings in Resources */,
 				3D11853A2581663600162249 /* Assets.xcassets in Resources */,
 			);
@@ -306,6 +311,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B61A6293258BA4CC00C91B08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61A6292258BA4CC00C91B08 /* en */,
+				B61A6297258BA4DD00C91B08 /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		B690858C258A509900B39A03 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
